@@ -1,0 +1,55 @@
+*
+.span {
+    color:chartreuse;
+}
+.bg-box_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 100px;
+    width: 8em;
+    height: 6.1em;
+    margin: 0.4em auto;
+    background-color: green;
+}
+.blok-1 > .bg-box {
+    background: url(./img/lamp-png-34914.png) repeat-x;
+    background-size: 0.38em;
+    height: 0.6em;
+    background-position: top;
+}
+.blok-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blok-2 > .bg-box:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    background: url(./img/3F3F.webp) repeat-y;
+    background-size: 0.2em;
+    width: 0.2em;
+    height: 4.7em;
+    background-position: left;
+}
+.blok-2 > .bg-box:nth-child(2) {
+    width: 5.96em;
+    height: 3.8em;
+    background: url(./img/pole-zelen-trava-dom-derevya.jpg) no-repeat;
+    background-size: 5.96em;
+}
+.blok-2 > .bg-box:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    background: url(./img/image-removebg-preview.png) repeat-y;
+    background-size: 0.2em;
+    width: 0.2em;
+    height: 4.7em;
+    background-position: right;
+}
+.blok-3 > .bg-box {
+    background: url(./img/green-png-44873.png) repeat-x;
+    background-size: 2em;
+    height: 0.8em;
+    background-position: bottom;
+}
